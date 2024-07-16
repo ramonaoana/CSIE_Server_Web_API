@@ -1,0 +1,1235 @@
+[
+  {
+    "ContainingType": "SERVER.Controllers.AnnounceController",
+    "Method": "GetAnnounce",
+    "RelativePath": "api/Announce/GetAnnounce",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "word",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.AuthenticationController",
+    "Method": "GetProfile",
+    "RelativePath": "api/Authentication/getProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.AuthenticationController",
+    "Method": "InsertProfessors",
+    "RelativePath": "api/Authentication/insertProfessors",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "users",
+        "Type": "System.Collections.Generic.List\u00601[[BaseLibrary.DTOs.ProfessorAccount, BaseLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.AuthenticationController",
+    "Method": "InsertUsers",
+    "RelativePath": "api/Authentication/insertUsers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "users",
+        "Type": "System.Collections.Generic.List\u00601[[BaseLibrary.DTOs.UserAccount, BaseLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.AuthenticationController",
+    "Method": "SignInAsync",
+    "RelativePath": "api/Authentication/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "BaseLibrary.DTOs.Login",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.AuthenticationController",
+    "Method": "LogOutAsync",
+    "RelativePath": "api/Authentication/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Server.Controllers.AuthenticationController",
+    "Method": "RefreshTokenAsync",
+    "RelativePath": "api/Authentication/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "BaseLibrary.DTOs.RefreshToken",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "ClassifyMessage",
+    "RelativePath": "api/Chat/classifyMessage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "FindAnnounce",
+    "RelativePath": "api/Chat/findAnnounce",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetAmountScholarship",
+    "RelativePath": "api/Chat/getAmountScholarship",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetCoursesYear",
+    "RelativePath": "api/Chat/getCoursesYear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetEmailProfessor",
+    "RelativePath": "api/Chat/getEmailProfessor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetExamGrade",
+    "RelativePath": "api/Chat/getExamGrade",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetGroupsAndSeries",
+    "RelativePath": "api/Chat/getGroupsAndSeries",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetGroupsBySpecCycleAndYear",
+    "RelativePath": "api/Chat/getGroupsBySpecCycleAndYear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetGroupsBySpecializationAndYear",
+    "RelativePath": "api/Chat/getGroupsBySpecializationAndYear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetGroupsForSeries",
+    "RelativePath": "api/Chat/getGroupsForSeries",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetInfoBachelorDegree",
+    "RelativePath": "api/Chat/getInfoBachelorDegree",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetInfoBachelorDegreeInternship",
+    "RelativePath": "api/Chat/getInfoBachelorDegreeInternship",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetInfoCollegeAdmission",
+    "RelativePath": "api/Chat/getInfoCollegeAdmission",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetInfoCourse",
+    "RelativePath": "api/Chat/getInfoCourse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetInfoExam",
+    "RelativePath": "api/Chat/getInfoExam",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetInfoMaster",
+    "RelativePath": "api/Chat/getInfoMaster",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetInfoMasterDegree",
+    "RelativePath": "api/Chat/getInfoMasterDegree",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetInfoMasterInternship",
+    "RelativePath": "api/Chat/getInfoMasterInternship",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetInfoScheduleCourse",
+    "RelativePath": "api/Chat/getInfoScheduleCourse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetInfoScholarship",
+    "RelativePath": "api/Chat/getInfoScholarship",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetInfoStudentCalendar",
+    "RelativePath": "api/Chat/getInfoStudentCalendar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetJobs",
+    "RelativePath": "api/Chat/getJobs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetKeywords",
+    "RelativePath": "api/Chat/getKeywords",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetSchedule",
+    "RelativePath": "api/Chat/getSchedule",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetScheduleDay",
+    "RelativePath": "api/Chat/getScheduleDay",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetScheduleDayAndHour",
+    "RelativePath": "api/Chat/getScheduleDayAndHour",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetScheduleProfessor",
+    "RelativePath": "api/Chat/getScheduleProfessor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetSeriesForGroup",
+    "RelativePath": "api/Chat/getSeriesForGroup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetSeriesForSpecialization",
+    "RelativePath": "api/Chat/getSeriesForSpecialization",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "GetStudentCertificate",
+    "RelativePath": "api/Chat/getStudentCertificate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "QueryDocument",
+    "RelativePath": "api/Chat/queryDocument",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      },
+      {
+        "Name": "TypeDocument",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "StartChat",
+    "RelativePath": "api/Chat/sendMessage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "BaseLibrary.DTOs.ChatMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ChatController",
+    "Method": "TrainModel",
+    "RelativePath": "api/Chat/trainModel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.DocumentController",
+    "Method": "getDocuments",
+    "RelativePath": "api/Document/getDocuments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "type",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.EmailController",
+    "Method": "SendEmail",
+    "RelativePath": "api/Email/sendEmail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "ServerLibrary.Helpers.EmailDataMethod",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.EnrollmentDetailsProfileController",
+    "Method": "GetDetailsEnrollmentsStudent",
+    "RelativePath": "api/EnrollmentDetailsProfile/getEnrollmentDetailsProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ExamController",
+    "Method": "CheckCourse",
+    "RelativePath": "api/Exam/checkCourse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "course",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ExamController",
+    "Method": "GetInfoExam",
+    "RelativePath": "api/Exam/getExam",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "course",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ExamController",
+    "Method": "GetExamGrade",
+    "RelativePath": "api/Exam/getExamGrade",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.GroupsAndSeriesController",
+    "Method": "GetGroupsBySpecCycleAndYear",
+    "RelativePath": "api/GroupsAndSeries/getGroupsBySpecCycleAndYear",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "specialization",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "cycle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.GroupsAndSeriesController",
+    "Method": "GetGroupsBySpecializationAndYear",
+    "RelativePath": "api/GroupsAndSeries/getGroupsBySpecializationAndYear",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "specialization",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.GroupsAndSeriesController",
+    "Method": "GetGroups",
+    "RelativePath": "api/GroupsAndSeries/getGroupsForSeries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "series",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.GroupsAndSeriesController",
+    "Method": "GetSeriesAndGroups",
+    "RelativePath": "api/GroupsAndSeries/getSeriesAndGroups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.GroupsAndSeriesController",
+    "Method": "GetSeriesForGroup",
+    "RelativePath": "api/GroupsAndSeries/getSeriesForGroup",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "groupNr",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.GroupsAndSeriesController",
+    "Method": "GetSeriesForSpecialization",
+    "RelativePath": "api/GroupsAndSeries/getSeriesForSpecialization",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "specialization",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.JobOpeningsController",
+    "Method": "GetJobs",
+    "RelativePath": "api/JobOpenings/getJobs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.LeadershipController",
+    "Method": "getUniversityLeadership",
+    "RelativePath": "api/Leadership/getLeadership",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.OpenAIController",
+    "Method": "GetMessage",
+    "RelativePath": "api/OpenAI/callAI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "openAIRequest",
+        "Type": "BaseLibrary.DTOs.OpenAIRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ProfessorsController",
+    "Method": "GetProfessorEmailAddress",
+    "RelativePath": "api/Professors/getProfessorEmailAddress",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ProfessorsController",
+    "Method": "GetProfessors",
+    "RelativePath": "api/Professors/getProfessors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ProfileController",
+    "Method": "GetCoursesForProfessor",
+    "RelativePath": "api/Profile/getCoursesForProfessor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ProfileController",
+    "Method": "GetNameAndEmail",
+    "RelativePath": "api/Profile/getNameAndEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ProfileController",
+    "Method": "GetUserProfile",
+    "RelativePath": "api/Profile/getProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ProfileController",
+    "Method": "GetUserRole",
+    "RelativePath": "api/Profile/getRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ScheduleController",
+    "Method": "GetSchedule",
+    "RelativePath": "api/Schedule/getSchedule",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ScheduleController",
+    "Method": "GetScheduleForCourse",
+    "RelativePath": "api/Schedule/getScheduleCourse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "courseType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "course",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ScheduleController",
+    "Method": "GetScheduleDayAndHour",
+    "RelativePath": "api/Schedule/getScheduleDayAndHour",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "day",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ScheduleController",
+    "Method": "GetScheduleForGroup",
+    "RelativePath": "api/Schedule/getScheduleForGroup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "group",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ScheduleController",
+    "Method": "GetScheduleForOneDay",
+    "RelativePath": "api/Schedule/getScheduleForOneDay",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "day",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ScheduleController",
+    "Method": "GetScheduleForSeries",
+    "RelativePath": "api/Schedule/getScheduleForSeries",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "series",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.ScheduleController",
+    "Method": "GetScheduleForYearAndSpec",
+    "RelativePath": "api/Schedule/getScheduleForYearAndSpec",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "spec",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.SpecializationController",
+    "Method": "GetSpecializations",
+    "RelativePath": "api/Specialization/getSpecializations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.StudentCertificateController",
+    "Method": "CheckStatus",
+    "RelativePath": "api/StudentCertificate/checkStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.StudentCertificateController",
+    "Method": "CheckStatusUser",
+    "RelativePath": "api/StudentCertificate/checkStatusUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.StudentCertificateController",
+    "Method": "GetCertificate",
+    "RelativePath": "api/StudentCertificate/getCertificate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "BaseLibrary.DTOs.DocumentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SERVER.Controllers.StudentCertificateController",
+    "Method": "GetStudentInfo",
+    "RelativePath": "api/StudentCertificate/getStudentInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

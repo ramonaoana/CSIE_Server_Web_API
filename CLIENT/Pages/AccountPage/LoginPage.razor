@@ -1,0 +1,104 @@
+﻿@page "/identity/account/login"
+@using Syncfusion.Blazor.Popups
+@layout AuthenticationLayout
+
+<div class="container justify-content-center text-center" style="margin-left:250px; margin-top: 40px">
+    <div class="row">
+        <div class="col-lg-12 mb-0 d-flex align-items-start">
+            <img src="../images/logos/ASE.png" height="100" width="120" style="margin-top: 10px;">
+            <div class="text-white">
+                <p class="mb-3 font-weight-bold" style="margin-top:20px; font-size: 25px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">ACADEMIA DE STUDII ECONOMICE DIN BUCURESTI</p>
+                <p class="mb-3" style="margin-left:5px; font-size: 20px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">FACULTATEA DE CIBERNETICA, STATISTICA SI INFORMATICA ECONOMICA</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+            <EditForm Enhance Model="User" OnValidSubmit="HandleLogin">
+                <DataAnnotationsValidator />
+                 <div class="card bg-dark" style="opacity:0.5; margin-top:10%; border-radius:10px; color:white; font-weight:bold">
+                     <div class="card-header text-center fs-5 mb-2">LOGIN</div>
+                     <div class="container">
+                         <div class="row">
+                             <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                             <div class="col-lg-4 col-md-4 col-sm-4 d-flex justify-content-center">
+                                 <img style="border-radius:20px" src="../images/logos/csie.png" height="50" width="150" />
+                             </div>
+                             <div class="col-lg-4 col-md-4 col-sm-4"></div>
+                         </div>
+                     </div>
+                    <div class="card-body">
+                         <div class="form-group mt-3">
+                            <label class="form-label">Email</label>
+                             <InputText @bind-Value="User.Email" class="form-control"></InputText>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label class="form-label">Password</label>
+                             <input type="password" @bind="User.Password" class="form-control"></input>
+                        </div>
+                        <div class="form-group mt-3">
+                          @if (ShowLoadingButton)
+                            {
+                                <button class="btn btn-primary float-end" type="submit" disabled>
+                                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                    Processing...
+                                </button>
+                            }
+                            else
+                            {
+                                <button class="btn btn-primary float-end" type="submit">Login</button>
+                            }
+
+                        </div>
+                    </div>
+                     <div class="card-footer">
+                         <span class="text-center">
+                             Don't have account? |
+                             <a class="btn-link" href="identity/account/register">Sign Up</a>
+                         </span>
+                         <ValidationSummary />
+                     </div>
+                </div>
+            </EditForm>
+        </div>
+         <div class="col-lg-4"></div>
+    </div>
+</div>
+@code {
+    public bool ShowLoadingButton { get; set; } = false;
+    Login User = new();
+
+    [CascadingParameter] public Task<AuthenticationState> AuthenticationState { get; set; }
+    protected async override Task OnInitializedAsync()
+    {
+        await CheckUserAuthentication();
+    }
+
+    async Task HandleLogin()
+    {
+        ShowLoadingButton = true;
+        var result = await accountService.SignInAsync(User);
+        if (result.Flag)
+        {
+            var customAuthStateProvider = (CustomAuthenticationStateProvider)AuthStateProvider;
+            await customAuthStateProvider.UpdateAuthenticationState(new UserSession() 
+            { Token = result.Token, RefreshToken = result.RefreshToken });
+         
+            NavManager.NavigateTo("/", forceLoad: true);
+        }
+
+        ShowLoadingButton = false;
+    }
+
+    private async Task CheckUserAuthentication()
+    {
+        var user = (await AuthenticationState).User;
+        bool isUserAuthenticated = user.Identity!.IsAuthenticated;
+        if (isUserAuthenticated)
+            NavManager.NavigateTo("/home/dashboard");
+    }
+}

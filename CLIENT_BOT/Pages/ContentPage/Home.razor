@@ -1,0 +1,49 @@
+﻿@page "/home/dashboard"
+<h1 class="center-title">⭐Chatbot al Secretariatului Facultății de Cibernetică, Statistică și Informatică Economică ⭐</h1>
+
+<div>
+    <p class="larger-text bold-text"> Bun venit la chatbot-ul nostru! 🤖</p>
+    <p class="larger-text bold-text">Sunt aici pentru a te ajuta cu orice întrebare legată de procesele administrative ale facultății noastre.</p>
+    <p class="larger-text bold-text">Poți să mă întrebi despre:</p>
+    <ul class="no-bullet bold-text">
+        <li>🔹 Orarul cursurilor</li>
+        <li>🔹 Programul secretariatului</li>
+        <li>🔹 Termenele limită pentru înscrieri și depunerea documentelor</li>
+        <li>🔹 Informații despre examene și sesiuni de restanțe</li>
+        <li>🔹 Proceduri pentru eliberarea documentelor academice (diplome, adeverințe etc.)</li>
+        <li>🔹 Orice altceva legat de viața academică și procesele administrative ale facultății. </li>
+    </ul>
+    <p class="larger-text bold-text">✨ Nu ezita să mă întrebi! Sunt aici pentru a te ghida și a-ți oferi informațiile de care ai nevoie.✨</p>
+</div>
+
+<style>
+    .no-bullet {
+        list-style-type: none;
+    }
+    .larger-text {
+        font-size: 20px; 
+    }
+    .bold-text{
+        font-weight:bold;
+
+    .center-title {
+        text-align: center;
+    }
+</style>
+
+@code {
+    [CascadingParameter] public Task<AuthenticationState> AuthenticationState { get; set; }
+    protected async override Task OnInitializedAsync()
+    {
+        await CheckUserAuthentication();
+    }
+
+    private async Task CheckUserAuthentication()
+    {
+        var user = (await AuthenticationState).User;
+        bool isUserAuthenticated = user.Identity!.IsAuthenticated;
+        if (!isUserAuthenticated)
+            NavManager.NavigateTo("/identity/account/login");
+    }
+
+}

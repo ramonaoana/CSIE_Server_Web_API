@@ -1,0 +1,218 @@
+Question	Method
+Pot primi o adeverinta de student?	getStudentCertificate
+Doresc sa obtin o adeverinta de student	getStudentCertificate
+As dori sa mi se elibereze o adeverinta de student	getStudentCertificate
+Vreau un document care sa ateste ca sunt student al acestei universitati.	getStudentCertificate
+Pot sa primesc o adeverinta de student pentru acest semestru?	getStudentCertificate
+Pot sa primesc o adeverinta de student in format electronic?	getStudentCertificate
+Este posibil sa obtin o adeverinta de student?	getStudentCertificate
+Doresc un document care sa confirme ca sunt student la aceasta universitate.	getStudentCertificate
+Vreau sa mi se elibereze o aderinta pentru job	getStudentCertificate
+Este posibil sa primesc o adeverinta de student pentru semestrul curent?	getStudentCertificate
+Vreau sa mi se elibereze o adeverinta de student pentru casa de pensii.	getStudentCertificate
+Vreau sa mi se elibereze o adeverinta de student pentru confirmarea statusului de student in scopuri administrative	getStudentCertificate
+Vreau un document care sa ateste ca sunt student al acestei universitati. Mentionez ca imi va servi la casa de pensii.	getStudentCertificate
+Vreau un document care sa ateste ca sunt student al acestei universitati. Mentionez ca imi va servi la compania de transport STB SA	getStudentCertificate
+Vreau un document care sa ateste ca sunt student al acestei universitati pentru imprumut bancar	getStudentCertificate
+Care este adresa de mail a profesorului Alin Zamfiroiu?	getEmailProfessor
+Care este adresa de mail a profesoarei?	getEmailProfessor
+Cum pot lua legatura cu doamna profesoara? 	getEmailProfessor
+Cum pot lua legatura cu domnul profesor Dardala Marian? 	getEmailProfessor
+Care sunt datele de contact ale profesorului Toma Andrei? 	getEmailProfessor
+Care sunt datele de contact ale profesoarei Bologa Ramona? 	getEmailProfessor
+Cum pot lua legatura cu profesorul Toma?	getEmailProfessor
+Cum pot lua legatura cu doamna profesoara Bologa Ramona?	getEmailProfessor
+Cum pot contacta profesorul Zamfiroiu Alin?	getEmailProfessor
+Cum o  pot contacta pe doamna profesoara Bologa Ramona pentru a discuta despre tema?	getEmailProfessor
+Pe ce adresa de email institutionala pot discuta cu profesorul Alin Zamfiroiu?	getEmailProfessor
+Pe ce adresa de email pot trimite tema catre profesoara Ramona Bologa?	getEmailProfessor
+Care sunt categoriile de bursa pe care le poate oferi facultatea?	getInfoScholarship
+De cine este stabilit cuantumul bursei?	getInfoScholarship
+Cate tipuri de bursa acorda facultatea?	getInfoScholarship
+Cate tipuri de bursa sunt?	getInfoScholarship
+Pentru ce studenti se acorda Bursa de Performanta?	getInfoScholarship
+Pentru cine se acorda Bursele speciale?	getInfoScholarship
+Pentru cine se acorda Bursele sociale? 	getInfoScholarship
+Ce studenti vor primi bursele de performanta sportiva?	getInfoScholarship
+Care este cuantumul pentru bursa sociala?	getAmountScholarship
+Care este valoarea bursei de performanta?	getAmountScholarship
+Care este suma primita pentru bursa speciala?	getAmountScholarship
+Care esta cuantumul bursei pe semestrul 2?	getAmountScholarship
+Care este valoarea bursei de excelenta Mihail Manoilescu?	getAmountScholarship
+Ce valoare incaseaza studentii straini ca bursa?	getAmountScholarship
+Ce valoare are bursa pentru masteranzii straini?	getAmountScholarship
+Ce valoare are bursa de excelenta olimpica?	getAmountScholarship
+Care este cuantumul pentru bursa oferita pentru implicarea in activitati culturale?	getAmountScholarship
+Ce presupune programul de licenta in Cibernetica Economica?	getInfoCollegeAdmission
+Ce se invata la Cibernetica Economica?	getInfoCollegeAdmission
+Cand sunt inscrierile pentru programul de licenta in Cibernetica Economica?	getInfoCollegeAdmission
+Ce imi poti spune despre specializarea Cibernetica Economica?	getInfoCollegeAdmission
+Unde fac practica studentii de la specializarea Cibernetica Economica?	getInfoCollegeAdmission
+Ce presupune programul de licenta in Informatica Economica?	getInfoCollegeAdmission
+Ce se invata la Informatica Economica?	getInfoCollegeAdmission
+Cand sunt inscrierile pentru programul de licenta in Informatica Economica?	getInfoCollegeAdmission
+Ce imi poti spune despre specializarea Informatica Economica?	getInfoCollegeAdmission
+Unde fac practica studentii de la specializarea Informatica Economica?	getInfoCollegeAdmission
+Ce presupune programul de licenta in Statistica si Previziune Economica?	getInfoCollegeAdmission
+Ce se face la Statistica si Previziune Economica?	getInfoCollegeAdmission
+Cand sunt inscrierile pentru programul de licenta in Statistica si Previziune Economica?	getInfoCollegeAdmission
+Ce imi poti spune despre specializarea Informatica Economica?	getInfoCollegeAdmission
+Unde fac practica studentii de la specializarea Statistica si Previziune Economica?	getInfoCollegeAdmission
+Unde fac practica studentii de la specializarea Statistica?	getInfoCollegeAdmission
+Ce se invata la Statistica?	getInfoCollegeAdmission
+Ce presupune programul de licenta in Informatica Economica  dar in limba engleza?	getInfoCollegeAdmission
+Ce se va invata la Informatica Economica in limba engleza?	getInfoCollegeAdmission
+Cand sunt inscrierile pentru programul de licenta in Informatca economica cu predare in limba engleza?	getInfoCollegeAdmission
+Care sunt programele de masterat?	getInfoMaster
+Cate mastere pune la dispozitie facultatea?	getInfoMaster
+Cate programe de masterat sunt?	getInfoMaster
+Cate tipuri de mastere exista in cadrul facultatii?	getInfoMaster
+Ce ofera programul de master la Cibernetica Economica?	getInfoMaster
+Care sunt obiectivele principale ale programului de master de Informatica Economica?	getInfoMaster
+Cate programe de masterat de cercetare sunt?	getInfoMaster
+Unde se face verificarea antiplagiat?	getInfoPlagiarism
+Care este perioada de incarcare a lucrarilor de disertatie pentru antiplagiat?	getInfoPlagiarism
+Cand se face verificarea antiplagiat contra-cost?	getInfoPlagiarism
+Cum se face verificare antiplagiat contra-cost?	getInfoPlagiarism
+Cum se achita taxa de verificare a lucrarii pentru antiplagiat?	getInfoPlagiarism
+Ce praguri de alerta sunt pentru verificarea antiplagiat?	getInfoPlagiarism
+Ce valori trebuie sa inregistreze coeficientii de similitudine la verificarea antiplagiat?	getInfoPlagiarism
+Ce reprezinta coeficientii de la verificarea antiplagiat?	getInfoPlagiarism
+Pentru verificarea antiplagiat  ce structura trebuie sa aibe documentul?	getInfoPlagiarism
+In cate zile se primeste rezultatul dupa incarcarea lucrarii la antiplagit?	getInfoPlagiarism
+Care este taxa de verificare a lucrarii la antiplagiat?	getInfoPlagiarism
+Cum pot plati taxa de antiplagiat?	getInfoPlagiarism
+Care sunt modalitatile de plata pentru verificarea antiplagiat?	getInfoPlagiarism
+Daca nu functioneaza platforma  cum trimit lucrarea in vederea verificarii pentru antiplagiat?	getInfoPlagiarism
+Ce zile libere avem de-a lungul anului universitar?	getInfoStudentCalendar
+Cand se afiseaza lista cu absolventii care au obtinut calificativul Admis/Respins pentru lucrarea de disertatie?	getInfoStudentCalendar
+Cand se sustine examenul de disertatie?	getInfoStudentCalendar
+Care sunt datele pentru depunerea cererilor de bursa pentru studentii implicati in activitati extracurriculare?	getInfoStudentCalendar
+Cand pot studentii depune cererile pentru bursele sociale pentru semestrul I?	getInfoStudentCalendar
+Care este termenul limita pentru plata taxei de scolarizare pentru semestrul I?	getInfoStudentCalendar
+Cand este programata sesiunea de informare Erasmus+?	getInfoStudentCalendar
+Cand au loc interviurile pentru a doua selectie la Erasmus?	getInfoStudentCalendar
+Cand va fi afisata lista cu studentii ce au dreptul de a intra in an suplimentar	getInfoStudentCalendar
+Cand se realizeaza inscrierea la examenul de disertatie prin trimiterea documentelor?	getInfoStudentCalendar
+Cand se incarca documentele necesare pentru a ne inscrie la examenul de disertatie?	getInfoStudentCalendar
+Cand este vacanta de iarna pentru anul universitar 2023-2024?	getInfoStudentCalendar
+Care sunt datele pentru examenele din semestrul I?	getInfoStudentCalendar
+Cand vor fi publicate rezultatele concursurilor speciale de burse pentru rezultate deosebite in activitati culturale si organizatorice?	getInfoStudentCalendar
+Cand trebuie studentii sa depuna cererile pentru alegerea temei de disertatie?	getInfoStudentCalendar
+Cand este vacanta de primavara pentru anul universitar 2023-2024?	getInfoStudentCalendar
+Studentii din anul 3 care doresc sa sutina lucrarea de licenta  trebuie sa mai depuna o cerere?	getInfoBachelorDegree
+Cand se depune cererea privind tema si coordonatorul pentru lucrarea de licenta?	getInfoBachelorDegree
+Cei care nu au acces la adresa institutionala  cum vor trimite cererea privind tema lucrarii de licenta?	getInfoBachelorDegree
+Cum se depun cererile pentru lucrarea de licenta pentru departamentul de Statistica?	getInfoBachelorDegree
+Cand se verifica lucrarea de licenta la antiplagiat? 	getInfoBachelorDegree
+Cand se obtine acordul profesorului coordonator pentru inscrierea la examenul de licenta?	getInfoBachelorDegree
+Cand se incarca lucrarea de licenta in mod oficial?	getInfoBachelorDegree
+Unde vor trimite lucrarea de licenta studentii din promotiile anterioare?	getInfoBachelorDegree
+Cand se realizeaza inscrierea la examenul de licenta?	getInfoBachelorDegree
+Care este denumirea acceptata pentru transmiterea lucrarii de licenta?	getInfoBachelorDegree
+Cum transmit lucrarea de licenta studentii de la Informatica Economica?	getInfoBachelorDegree
+Cum transmit lucrarea de licenta studentii de la Cibernetica Economica?	getInfoBachelorDegree
+Cum se sustine examenul de licenta? Fizic sau online?	getInfoBachelorDegree
+Ce documente se solicita pentru sustinerea examenului de licenta?	getInfoBachelorDegree
+Care este taxa de inscriere pentru sustinerea examenului de licenta in cazul in care suntem in an suplimentar?	getInfoBachelorDegree
+Care este acronimul pentru programul de Cibernetica Economica?	getInfoBachelorDegree
+Studentii din anul 3 care doresc sa sutina lucrarea de disertatie  trebuie sa mai depuna o cerere?	getInfoMasterDegree
+Cand se depune cererea privind tema si coordonatorul pentru lucrarea de disertatie?	getInfoMasterDegree
+Cei care nu au acces la adresa institutionala  cum vor trimite cererea privind tema lucrarii de disertatie?	getInfoMasterDegree
+Cum se depun cererile pentru lucrarea de disertatie pentru departamentul de Statistica?	getInfoMasterDegree
+Cand se verifica lucrarea de disertatie la antiplagiat? 	getInfoMasterDegree
+Cand se obtine acordul profesorului coordonator pentru inscrierea la examenul de disertatie?	getInfoMasterDegree
+Cand se incarca lucrarea de disertatie in mod oficial?	getInfoMasterDegree
+Unde vor trimite lucrarea de disertatie studentii din promotiile anterioare?	getInfoMasterDegree
+Cand se realizeaza inscrierea la examenul de disertatie?	getInfoMasterDegree
+Care este denumire acceptata pentru transmiterea lucrarii de disertatie?	getInfoMasterDegree
+Cum transmit lucrarea de disertatie studentii de la Informatica Economica?	getInfoMasterDegree
+Cum transmit lucrarea de disertatie studentii de la Cibernetica Economica?	getInfoMasterDegree
+Cum se sustine examenul de disertatie? Fizic sau online?	getInfoMasterDegree
+Ce documente se solicita pentru sustinerea examenului de disertatie?	getInfoMasterDegree
+Care este taxa de inscriere pentru sustinerea examenului de disertatie in cazul in care suntem in an suplimentar?	getInfoMasterDegree
+Care este acronimul pentru programul de Cibernetica Economica?	getInfoMasterDegree
+Care este minimul de ore de practica la licenta?	getInfoBachelorDegreeInternship
+Ce documente trebuie sa incarce studentul pentru a incheia stagiul de practica pentru licenta?	getInfoBachelorDegreeInternship
+Ce oportunitati de practica ofera facultatea pentru studentii la licenta?	getInfoBachelorDegreeInternship
+Care sunt etapele de incheierii conventiei de practica la licenta?	getInfoBachelorDegreeInternship
+Pana cand trebuie incheiat stagiul de practica pentru licenta?	getInfoBachelorDegreeInternship
+Care este minimul de ore de practica la master?	getInfoMasterInternship
+Ce documente trebuie sa incarce studentul pentru a incheia stagiul de practica pentru master?	getInfoMasterInternship
+Ce oportunitati de practica ofera facultatea pentru studentii la master?	getInfoMasterInternship
+Care sunt etapele de incheierii conventiei de practica la master?	getInfoMasterInternship
+Pana cand trebuie incheiat stagiul de practica pentru master?	getInfoMasterInternship
+La ce sala se sustine cursul de POO?	getInfoScheduleCourse
+La ce sala se sustine seminarul de Java?	getInfoScheduleCourse
+Unde se tine cursul de Programare Orientata Obiect?	getInfoScheduleCourse
+La ce ora este cursul de Macroeconomie Cantitativa?	getInfoScheduleCourse
+La ce ora este seminarul de Marketing?	getInfoScheduleCourse
+Cand avem seminarul de BCE?	getInfoScheduleCourse
+Cand avem seminarul de Multimedia?	getInfoScheduleCourse
+La ce sala avem Dezvoltare software pentru analiza datelor?	getInfoScheduleCourse
+Poti sa imi trimiti orarul pentru toata saptamana?	getSchedule
+Care este orarul meu?	getSchedule
+Cum sunt planificate cursurile si seminariile saptamana asta?	getSchedule
+Vreau sa stiu ce cursuri si ce seminarii am saptamana aceasta	getSchedule
+Ce ore am Luni?	getScheduleDay
+Ce materii am in ziua de Joi?	getScheduleDay
+Ce cursuri si seminarii am Vineri?	getScheduleDay
+Ce cursuri am in ziua de Marti?	getScheduleDay
+Ce cursuri am maine la facultate?	getScheduleDay
+Ce cursuri avem poimaine la facultate?	getScheduleDay
+Maine ce discipline avem?	getScheduleDay
+Poimane ce ore avem?	getScheduleDay
+La ce ora incep cursurile Joi?	getScheduleDayAndHour
+La cat incep orele maine?	getScheduleDayAndHour
+La cat incep orele poimaine?	getScheduleDayAndHour
+La cat incep orele Vineri?	getScheduleDayAndHour
+S-au afisat notele pentru examenul de POO?	getExamGrade
+Ce nota am obtinut la examenul de POO?	getExamGrade
+Cand au fost incarcate notele de la examenul de POO?	getExamGrade
+Cand este programat examenul de POO?	getInfoExam
+In ce zi este programat examenul de Algebra?	getInfoExam
+La ce ora avem examenul la Multimedia?	getInfoExam
+La ce sala avem examenul la Serii de timp? 	getInfoExam
+Ce materii vom studia in semestrul 2?	geCoursesSemester
+Ce materii vom studia in anul 1 semestrul 2?	getCoursesSemesterYear
+Ce materii se vor studia in anul 3? 	getCoursesYear
+Ce cursuri vom avea in anul 3? 	getCoursesYear
+Care este programul profesoarei Ramona Bologa pentru aceasta saptamana?	getScheduleProfessor
+Unde are ore doamna profesoara Ramona Bologa?	getScheduleProfessor
+Cand il pot gasi pe domnul profesor Alin Zamfiroiu in facultate?	getScheduleProfessor
+Cand as putea sa discut cu domnul profesor Marian Dardala? 	getScheduleProfessor
+Cine sunt titularii pentru materia Baze de date?	getInfoCourse
+In ce an si semestru se face materia Baza de date?	getInfoCourse
+Care este numarul de ore de studiu suplimentar pentru Multimedia?	getInfoCourse
+Care este forma de evaluare pentu materia BD?	getInfoCourse
+Cate credite are materia POO?	getInfoCourse
+Care este ponderea seminarului (S) in nota finala pentru Bazele de date?	getInfoCourse
+Care este ponderea cursului in nota finala pentru BD?	getInfoCourse
+Cum se realizeaza evaluarea finala pentru materia Multimedia?	getInfoCourse
+Care sunt grupele si seriile de anul acesta?	getGroupsAndSeries
+Ce grupe si serii sunt pentru specializarea noastra?	getGroupsAndSeries
+Care sunt grupele de la seria A?	getGroupsForSeries
+Cate grupe sunt la seria A?	getGroupsForSeries
+Care sunt grupele de la seria B?	getGroupsForSeries
+Care sunt grupele de la Informatica Economica din anul 1?	getGroupsBySpecializationAndYear
+Care sunt grupele de la Informatica Economica din anul 2?	getGroupsBySpecializationAndYear
+Care sunt grupele de la Informatica Economica din anul 3?	getGroupsBySpecializationAndYear
+Care sunt grupele de la Cibernetica Economica din anul 3?	getGroupsBySpecializationAndYear
+Care sunt grupele de la Statistica din anul 3?	getGroupsBySpecializationAndYear
+Care sunt seriile de la Cibernetica Economica din anul 3?	getGroupsBySpecializationAndYear
+Care este componenta seriilor de la Cibernetica Economica din anul 3?	getGroupsBySpecializationAndYear
+Care sunt grupele de la Informatica Economica?	getSeriesForSpecialization
+Care sunt grupele de la Cibernetica Economica?	getSeriesForSpecialization
+Care sunt grupele de la Statistica?	getSeriesForSpecialization
+Care sunt seriile de la Informatica Economica?	getSeriesForSpecialization
+Care sunt seriile de la Cibernetica?	getSeriesForSpecialization
+Care sunt seriile de la licenta  anul 1  specializarea Informatica Economica?	getGroupsBySpecCycleAndYear
+Care sunt seriile de la master  anul 1  specializarea Informatica Economica?	getGroupsBySpecCycleAndYear
+Care sunt seriile de la licenta  anul 2  Cibernetica Economica?	getGroupsBySpecCycleAndYear
+Ce serii si grupe sunt la licenta  anul 2  la Cibernetica Economica?	getGroupsBySpecCycleAndYear
+Care sunt grupele de la licenta  anul 2  Cibernetica Economica?	getGroupsBySpecCycleAndYear
+La ce serie este repartizata grupa 1009?	getSeriesForGroup
+Grupa 1009 este la seria A sau B?	getSeriesForGroup
+Au aparut oportunitati de angajare pentru studenti?	getJobs
+Ce oferte de angajare au aparut pentru studenti?	getJobs
+Exista o lista de joburi disponibile pentru studenti?	getJobs

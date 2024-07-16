@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+	<PackageReference Include="Catalyst.Models.Romanian" Version="1.0.30952" />
+	<PackageReference Include="F23.StringSimilarity" Version="6.0.0" />
+	<PackageReference Include="IronPython" Version="3.4.1" />
+	<PackageReference Include="itext7" Version="8.0.3" />
+	<PackageReference Include="itext7.bouncy-castle-adapter" Version="8.0.3" />
+	<PackageReference Include="MailKit" Version="4.6.0" />
+	<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+	  <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.3.1" />
+	  <PackageReference Include="Microsoft.KernelMemory.Core" Version="0.61.240524.1" />
+	  <PackageReference Include="Microsoft.SemanticKernel" Version="1.13.0" />
+	  <PackageReference Include="MimeKit" Version="4.6.0" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	  <PackageReference Include="OpenAI" Version="1.11.0" />
+	  <PackageReference Include="pythonnet" Version="3.0.3" />
+	  <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.3.1" />
+	  <PackageReference Include="System.Net.Mail" Version="1.0.0-rtm-00002" />
+	  <PackageReference Include="System.Text.Json" Version="8.0.3" />
+  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\BaseLibrary\BaseLibrary.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Views\" />
+	</ItemGroup>
+
+</Project>
